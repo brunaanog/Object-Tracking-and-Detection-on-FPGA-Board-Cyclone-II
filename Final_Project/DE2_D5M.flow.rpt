@@ -1,0 +1,169 @@
+Flow report for DE2_D5M
+Mon Jul 13 12:57:10 2015
+Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2010 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-----------------------------------------------------------------------------------+
+; Flow Summary                                                                      ;
++------------------------------------+----------------------------------------------+
+; Flow Status                        ; Successful - Mon Jul 13 12:57:10 2015        ;
+; Quartus II Version                 ; 9.1 Build 350 03/24/2010 SP 2 SJ Web Edition ;
+; Revision Name                      ; DE2_D5M                                      ;
+; Top-level Entity Name              ; main                                         ;
+; Family                             ; Cyclone II                                   ;
+; Device                             ; EP2C35F672C6                                 ;
+; Timing Models                      ; Final                                        ;
+; Met timing requirements            ; No                                           ;
+; Total logic elements               ; 2,493 / 33,216 ( 8 % )                       ;
+;     Total combinational functions  ; 1,961 / 33,216 ( 6 % )                       ;
+;     Dedicated logic registers      ; 1,562 / 33,216 ( 5 % )                       ;
+; Total registers                    ; 1577                                         ;
+; Total pins                         ; 238 / 475 ( 50 % )                           ;
+; Total virtual pins                 ; 0                                            ;
+; Total memory bits                  ; 94,160 / 483,840 ( 19 % )                    ;
+; Embedded Multiplier 9-bit elements ; 0 / 70 ( 0 % )                               ;
+; Total PLLs                         ; 1 / 4 ( 25 % )                               ;
++------------------------------------+----------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 07/13/2015 12:56:16 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; DE2_D5M             ;
++-------------------+---------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                                                                 ;
++-------------------------------------+------------------------------------------------------------------------------------------------+--------------------------------+-------------+------------+
+; Assignment Name                     ; Value                                                                                          ; Default Value                  ; Entity Name ; Section Id ;
++-------------------------------------+------------------------------------------------------------------------------------------------+--------------------------------+-------------+------------+
+; COMPILER_SIGNATURE_ID               ; 247087952720420.143678857602308                                                                ; --                             ; --          ; --         ;
+; ENABLE_SIGNALTAP                    ; Off                                                                                            ; --                             ; --          ; --         ;
+; IP_TOOL_NAME                        ; LPM_COUNTER                                                                                    ; --                             ; --          ; --         ;
+; IP_TOOL_NAME                        ; LPM_COMPARE                                                                                    ; --                             ; --          ; --         ;
+; IP_TOOL_NAME                        ; LPM_COMPARE                                                                                    ; --                             ; --          ; --         ;
+; IP_TOOL_NAME                        ; LPM_MUX                                                                                        ; --                             ; --          ; --         ;
+; IP_TOOL_NAME                        ; LPM_MUX                                                                                        ; --                             ; --          ; --         ;
+; IP_TOOL_NAME                        ; LPM_COUNTER                                                                                    ; --                             ; --          ; --         ;
+; IP_TOOL_NAME                        ; LPM_COMPARE                                                                                    ; --                             ; --          ; --         ;
+; IP_TOOL_NAME                        ; LPM_SHIFTREG                                                                                   ; --                             ; --          ; --         ;
+; IP_TOOL_NAME                        ; LPM_MUX                                                                                        ; --                             ; --          ; --         ;
+; IP_TOOL_VERSION                     ; 9.1                                                                                            ; --                             ; --          ; --         ;
+; IP_TOOL_VERSION                     ; 9.1                                                                                            ; --                             ; --          ; --         ;
+; IP_TOOL_VERSION                     ; 9.1                                                                                            ; --                             ; --          ; --         ;
+; IP_TOOL_VERSION                     ; 9.0                                                                                            ; --                             ; --          ; --         ;
+; IP_TOOL_VERSION                     ; 9.0                                                                                            ; --                             ; --          ; --         ;
+; IP_TOOL_VERSION                     ; 9.1                                                                                            ; --                             ; --          ; --         ;
+; IP_TOOL_VERSION                     ; 9.1                                                                                            ; --                             ; --          ; --         ;
+; IP_TOOL_VERSION                     ; 9.1                                                                                            ; --                             ; --          ; --         ;
+; IP_TOOL_VERSION                     ; 9.1                                                                                            ; --                             ; --          ; --         ;
+; MISC_FILE                           ; E:/D5M/cd/Demonstration/DE2_CAMERA/DE2_D5M.dpf                                                 ; --                             ; --          ; --         ;
+; MISC_FILE                           ; C:/Users/Ricardo Mendes/Desktop/1415/2Semestre/PSD/Projecto/PSD_Proj/DE2_CAMERA/DE2_D5M.dpf    ; --                             ; --          ; --         ;
+; MISC_FILE                           ; lpm_counter0.bsf                                                                               ; --                             ; --          ; --         ;
+; MISC_FILE                           ; lpm_counter0.cmp                                                                               ; --                             ; --          ; --         ;
+; MISC_FILE                           ; lpm_compare0.bsf                                                                               ; --                             ; --          ; --         ;
+; MISC_FILE                           ; lpm_compare0.cmp                                                                               ; --                             ; --          ; --         ;
+; MISC_FILE                           ; lpm_compare1.bsf                                                                               ; --                             ; --          ; --         ;
+; MISC_FILE                           ; lpm_compare1_bb.v                                                                              ; --                             ; --          ; --         ;
+; MISC_FILE                           ; lpm_compare1.cmp                                                                               ; --                             ; --          ; --         ;
+; MISC_FILE                           ; lpm_mux0.bsf                                                                                   ; --                             ; --          ; --         ;
+; MISC_FILE                           ; lpm_mux0_bb.v                                                                                  ; --                             ; --          ; --         ;
+; MISC_FILE                           ; lpm_mux0.cmp                                                                                   ; --                             ; --          ; --         ;
+; MISC_FILE                           ; C:/Documents and Settings/a2010130465/My Documents/Downloads/DE2_CAMERA/DE2_CAMERA/DE2_D5M.dpf ; --                             ; --          ; --         ;
+; MISC_FILE                           ; lpm_mux1.bsf                                                                                   ; --                             ; --          ; --         ;
+; MISC_FILE                           ; lpm_mux1.cmp                                                                                   ; --                             ; --          ; --         ;
+; MISC_FILE                           ; lpm_counter1.bsf                                                                               ; --                             ; --          ; --         ;
+; MISC_FILE                           ; lpm_counter1_bb.v                                                                              ; --                             ; --          ; --         ;
+; MISC_FILE                           ; lpm_counter1.cmp                                                                               ; --                             ; --          ; --         ;
+; MISC_FILE                           ; lpm_compare2.bsf                                                                               ; --                             ; --          ; --         ;
+; MISC_FILE                           ; lpm_compare2_bb.v                                                                              ; --                             ; --          ; --         ;
+; MISC_FILE                           ; lpm_compare2.cmp                                                                               ; --                             ; --          ; --         ;
+; MISC_FILE                           ; lpm_shiftreg0.bsf                                                                              ; --                             ; --          ; --         ;
+; MISC_FILE                           ; lpm_shiftreg0_bb.v                                                                             ; --                             ; --          ; --         ;
+; MISC_FILE                           ; lpm_shiftreg0.cmp                                                                              ; --                             ; --          ; --         ;
+; MISC_FILE                           ; lpm_mux2.bsf                                                                                   ; --                             ; --          ; --         ;
+; MISC_FILE                           ; lpm_mux2_bb.v                                                                                  ; --                             ; --          ; --         ;
+; MISC_FILE                           ; lpm_mux2.cmp                                                                                   ; --                             ; --          ; --         ;
+; OPTIMIZE_HOLD_TIMING                ; All Paths                                                                                      ; IO Paths and Minimum TPD Paths ; --          ; --         ;
+; PARTITION_COLOR                     ; 2147039                                                                                        ; --                             ; main        ; Top        ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING                                                                          ; --                             ; main        ; Top        ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                                                                                         ; --                             ; main        ; Top        ;
+; SMART_RECOMPILE                     ; On                                                                                             ; Off                            ; --          ; --         ;
+; TOP_LEVEL_ENTITY                    ; main                                                                                           ; DE2_D5M                        ; --          ; --         ;
+; USE_GENERATED_PHYSICAL_CONSTRAINTS  ; Off                                                                                            ; --                             ; --          ; eda_palace ;
+; USE_SIGNALTAP_FILE                  ; V/stp1.stp                                                                                     ; --                             ; --          ; --         ;
++-------------------------------------+------------------------------------------------------------------------------------------------+--------------------------------+-------------+------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                           ;
++-------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name             ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++-------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis    ; 00:00:17     ; 1.0                     ; 273 MB              ; 00:00:13                           ;
+; Fitter                  ; 00:00:26     ; 1.0                     ; 294 MB              ; 00:00:26                           ;
+; Assembler               ; 00:00:02     ; 1.0                     ; 267 MB              ; 00:00:02                           ;
+; Classic Timing Analyzer ; 00:00:01     ; 1.0                     ; 187 MB              ; 00:00:02                           ;
+; Total                   ; 00:00:46     ; --                      ; --                  ; 00:00:43                           ;
++-------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++------------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                          ;
++-------------------------+------------------+---------------+------------+----------------+
+; Module Name             ; Machine Hostname ; OS Name       ; OS Version ; Processor type ;
++-------------------------+------------------+---------------+------------+----------------+
+; Analysis & Synthesis    ; RicardoMendes    ; Windows Vista ; 6.1        ; x86_64         ;
+; Fitter                  ; RicardoMendes    ; Windows Vista ; 6.1        ; x86_64         ;
+; Assembler               ; RicardoMendes    ; Windows Vista ; 6.1        ; x86_64         ;
+; Classic Timing Analyzer ; RicardoMendes    ; Windows Vista ; 6.1        ; x86_64         ;
++-------------------------+------------------+---------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off DE2_D5M -c DE2_D5M
+quartus_fit --read_settings_files=off --write_settings_files=off DE2_D5M -c DE2_D5M
+quartus_asm --read_settings_files=off --write_settings_files=off DE2_D5M -c DE2_D5M
+quartus_tan --read_settings_files=off --write_settings_files=off DE2_D5M -c DE2_D5M --timing_analysis_only
+
+
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="DE2_D5M">
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|DE2_D5M:inst1|Sdram_Control_8Port:u7|Sdram_RD_FIFO:read_fifo3|dcfifo:dcfifo_component" CBX_FILE_NAME="dcfifo_21m1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|DE2_D5M:inst1|Sdram_Control_8Port:u7|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component" CBX_FILE_NAME="dcfifo_21m1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|colorChooser:inst6|lpm_mux2:inst16|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_5oc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|red_boundary:inst5|lpm_compare2:inst14|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_l7j.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|red_boundary:inst5|lpm_counter1:inst12|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_a3i.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|DE2_D5M:inst1|Sdram_Control_8Port:u7|Sdram_RD_FIFO:read_fifo4|dcfifo:dcfifo_component" CBX_FILE_NAME="dcfifo_21m1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|DE2_D5M:inst1|Sdram_Control_8Port:u7|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component" CBX_FILE_NAME="dcfifo_21m1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|DE2_D5M:inst1|Sdram_Control_8Port:u7|Sdram_RD_FIFO:read_fifo1|dcfifo:dcfifo_component" CBX_FILE_NAME="dcfifo_21m1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|DE2_D5M:inst1|Sdram_Control_8Port:u7|Sdram_WR_FIFO:write_fifo3|dcfifo:dcfifo_component" CBX_FILE_NAME="dcfifo_21m1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|colorChooser:inst6|lpm_mux2:inst10|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_5oc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|colorChooser:inst6|lpm_mux2:inst9|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_5oc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|lpm_compare1:inst3|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_oig.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|red_boundary:inst5|lpm_mux1:inst7|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_23e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|DE2_D5M:inst1|Sdram_Control_8Port:u7|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component" CBX_FILE_NAME="dcfifo_21m1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|DE2_D5M:inst1|Sdram_Control_8Port:u7|Sdram_WR_FIFO:write_fifo4|dcfifo:dcfifo_component" CBX_FILE_NAME="dcfifo_21m1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|colorChooser:inst6|lpm_mux2:inst11|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_5oc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|colorChooser:inst6|lpm_mux2:inst15|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_5oc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|rgb2gray:inst|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_aem.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|DE2_D5M:inst1|RAW2RGB:u4|Line_Buffer:u0|altshift_taps:altshift_taps_component" CBX_FILE_NAME="shift_taps_ikn.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|colorChooser:inst6|lpm_mux2:inst12|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_5oc.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

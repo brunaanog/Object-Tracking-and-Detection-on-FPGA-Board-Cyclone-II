@@ -1,0 +1,106 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : -0.192 ns
+Required Time  : 1.000 ns
+Actual Time    : 1.192 ns
+From           : DRAM_DQ[2]
+To             : DE2_D5M:inst1|Sdram_Control_8Port:u7|mDATAOUT[2]
+From Clock     : --
+To Clock       : CLOCK_50
+Failed Paths   : 15
+
+Type           : Worst-case tco
+Slack          : -7.342 ns
+Required Time  : 1.000 ns
+Actual Time    : 8.342 ns
+From           : DE2_D5M:inst1|Sdram_Control_8Port:u7|WR_MASK[0]
+To             : DRAM_DQ[5]
+From Clock     : CLOCK_50
+To Clock       : --
+Failed Paths   : 128
+
+Type           : Worst-case tpd
+Slack          : N/A
+Required Time  : None
+Actual Time    : 13.503 ns
+From           : SW[17]
+To             : VGA_B[5]
+From Clock     : --
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : 3.191 ns
+From           : SW[7]
+To             : red_boundary:inst5|inst9
+From Clock     : --
+To Clock       : CLOCK_50
+Failed Paths   : 0
+
+Type           : Clock Setup: 'DE2_D5M:inst1|Sdram_Control_8Port:u7|sdram_pll:sdram_pll1|altpll:altpll_component|_clk0'
+Slack          : -2.204 ns
+Required Time  : 208.33 MHz ( period = 4.800 ns )
+Actual Time    : 142.78 MHz ( period = 7.004 ns )
+From           : DE2_D5M:inst1|Sdram_Control_8Port:u7|Sdram_RD_FIFO:read_fifo1|dcfifo:dcfifo_component|dcfifo_21m1:auto_generated|dffpipe_oe9:ws_brp|dffe21a[0]
+To             : DE2_D5M:inst1|Sdram_Control_8Port:u7|WR_MASK[1]
+From Clock     : DE2_D5M:inst1|Sdram_Control_8Port:u7|sdram_pll:sdram_pll1|altpll:altpll_component|_clk0
+To Clock       : DE2_D5M:inst1|Sdram_Control_8Port:u7|sdram_pll:sdram_pll1|altpll:altpll_component|_clk0
+Failed Paths   : 3810
+
+Type           : Clock Setup: 'CLOCK_50'
+Slack          : 2.856 ns
+Required Time  : 41.67 MHz ( period = 24.000 ns )
+Actual Time    : 47.29 MHz ( period = 21.144 ns )
+From           : DE2_D5M:inst1|VGA_Controller:u1|oSubG[1]
+To             : red_boundary:inst5|inst9
+From Clock     : CLOCK_50
+To Clock       : CLOCK_50
+Failed Paths   : 0
+
+Type           : Clock Setup: 'GPIO_1[0]'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 53.82 MHz ( period = 18.580 ns )
+From           : DE2_D5M:inst1|RAW2RGB:u4|mDVAL
+To             : DE2_D5M:inst1|Sdram_Control_8Port:u7|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_21m1:auto_generated|a_graycounter_egc:wrptr_gp|counter13a[9]
+From Clock     : GPIO_1[0]
+To Clock       : GPIO_1[0]
+Failed Paths   : 0
+
+Type           : Clock Hold: 'DE2_D5M:inst1|Sdram_Control_8Port:u7|sdram_pll:sdram_pll1|altpll:altpll_component|_clk0'
+Slack          : 0.391 ns
+Required Time  : 208.33 MHz ( period = 4.800 ns )
+Actual Time    : N/A
+From           : DE2_D5M:inst1|Sdram_Control_8Port:u7|command:command1|do_rw
+To             : DE2_D5M:inst1|Sdram_Control_8Port:u7|command:command1|do_rw
+From Clock     : DE2_D5M:inst1|Sdram_Control_8Port:u7|sdram_pll:sdram_pll1|altpll:altpll_component|_clk0
+To Clock       : DE2_D5M:inst1|Sdram_Control_8Port:u7|sdram_pll:sdram_pll1|altpll:altpll_component|_clk0
+Failed Paths   : 0
+
+Type           : Clock Hold: 'CLOCK_50'
+Slack          : 0.391 ns
+Required Time  : 41.67 MHz ( period = 24.000 ns )
+Actual Time    : N/A
+From           : DE2_D5M:inst1|I2C_CCD_Config:u8|I2C_Controller:u0|SCLK
+To             : DE2_D5M:inst1|I2C_CCD_Config:u8|I2C_Controller:u0|SCLK
+From Clock     : CLOCK_50
+To Clock       : CLOCK_50
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 3953
+
+--------------------------------------------------------------------------------------
+
